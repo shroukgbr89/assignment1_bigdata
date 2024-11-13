@@ -45,7 +45,7 @@ use the following command
 You can pull the image from Docker Hub from [here](https://hub.docker.com/repository/docker/shroukgbr89/bd-a1-image/general)
 
 ## Github
-
+You can access the repo from Github from [here](https://github.com/shroukgbr89/assignment1_bigdata) or use the following command
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

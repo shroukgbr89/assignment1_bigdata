@@ -8,7 +8,7 @@ The goal is to establish a local dockerized environment for data analysis on a d
 |-------------------------|------------|----------------------------|
 | Shrouk Anwar Gbr        | 211001720  | S.Anwar2120@nu.edu.eg      |
 | Zeinab Mostafa Omran    | 211001793  | z.mostafasayed2193@nu.edu.eg|
-| Mariam Mohamed farhat  | 211001971  | m.mohamed2171@nu.edu.eg    |
+| Mariam Mohamed Farhat  | 211001971  | m.mohamed2171@nu.edu.eg    |
 | Zahraa Mohamed Mosa     | 211001602  | z.mohamed2102@nu.edu.eg    |
 
 ## To start up the Docker Image

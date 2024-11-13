@@ -1,0 +1,230 @@
+Cosine similarity between Survived and Survived: 1.0
+Cosine similarity between Survived and Pclass: 0.4921360789164383
+Cosine similarity between Survived and Age: 0.5346747106986007
+Cosine similarity between Survived and SibSp: 0.2405637579686754
+Cosine similarity between Survived and Parch: 0.32312268015226636
+Cosine similarity between Survived and Fare: 0.5065358247422225
+Cosine similarity between Survived and FamilySize: 0.3145046202631135
+Cosine similarity between Survived and IntAgeGroup: 0.4650085591708926
+Cosine similarity between Survived and IntFareGroup: 0.5347878213859037
+Cosine similarity between Survived and IntTitle: 0.6673863619872193
+Cosine similarity between Survived and IntSex: 0.7110138228696348
+Cosine similarity between Survived and IntEmbarked: 0.3792057389876939
+Cosine similarity between Survived and IntTicket: 0.5011503783137387
+Cosine similarity between Survived and Clusters: 0.5283004106934849
+Cosine similarity between Pclass and Survived: 0.4921360789164383
+Cosine similarity between Pclass and Pclass: 1.0000000000000002
+Cosine similarity between Pclass and Age: 0.8053346955463138
+Cosine similarity between Pclass and SibSp: 0.42867354873667524
+Cosine similarity between Pclass and Parch: 0.4081961109547404
+Cosine similarity between Pclass and Fare: 0.35466331051864397
+Cosine similarity between Pclass and FamilySize: 0.4796331636668922
+Cosine similarity between Pclass and IntAgeGroup: 0.6670529131516019
+Cosine similarity between Pclass and IntFareGroup: 0.4083587719786803
+Cosine similarity between Pclass and IntTitle: 0.5306189624854541
+Cosine similarity between Pclass and IntSex: 0.5220802851448592
+Cosine similarity between Pclass and IntEmbarked: 0.4784431957788665
+Cosine similarity between Pclass and IntTicket: 0.7878525348264346
+Cosine similarity between Pclass and Clusters: 0.6782248181245857
+Cosine similarity between Age and Survived: 0.5346747106986007
+Cosine similarity between Age and Pclass: 0.8053346955463138
+Cosine similarity between Age and Age: 1.0
+Cosine similarity between Age and SibSp: 0.3096588139381568
+Cosine similarity between Age and Parch: 0.31861225200098375
+Cosine similarity between Age and Fare: 0.5179288072790363
+Cosine similarity between Age and FamilySize: 0.35791841073360514
+Cosine similarity between Age and IntAgeGroup: 0.717313862955382
+Cosine similarity between Age and IntFareGroup: 0.5697972755104096
+Cosine similarity between Age and IntTitle: 0.46193944402159387
+Cosine similarity between Age and IntSex: 0.5074427150652975
+Cosine similarity between Age and IntEmbarked: 0.439987942249613
+Cosine similarity between Age and IntTicket: 0.7830591166902183
+Cosine similarity between Age and Clusters: 0.7240704487008743
+Cosine similarity between SibSp and Survived: 0.2405637579686754
+Cosine similarity between SibSp and Pclass: 0.42867354873667524
+Cosine similarity between SibSp and Age: 0.3096588139381568
+Cosine similarity between SibSp and SibSp: 1.0
+Cosine similarity between SibSp and Parch: 0.5222303719228316
+Cosine similarity between SibSp and Fare: 0.354268765815849
+Cosine similarity between SibSp and FamilySize: 0.9115673422818255
+Cosine similarity between SibSp and IntAgeGroup: 0.34557325743297573
+Cosine similarity between SibSp and IntFareGroup: 0.4554885273137745
+Cosine similarity between SibSp and IntTitle: 0.3748030363670246
+Cosine similarity between SibSp and IntSex: 0.33784687606617797
+Cosine similarity between SibSp and IntEmbarked: 0.1648906603497929
+Cosine similarity between SibSp and IntTicket: 0.21258949742000371
+Cosine similarity between SibSp and Clusters: 0.1907285394695891
+Cosine similarity between Parch and Survived: 0.32312268015226636
+Cosine similarity between Parch and Pclass: 0.4081961109547404
+Cosine similarity between Parch and Age: 0.31861225200098375
+Cosine similarity between Parch and SibSp: 0.5222303719228316
+Cosine similarity between Parch and Parch: 1.0
+Cosine similarity between Parch and Fare: 0.39685877791046115
+Cosine similarity between Parch and FamilySize: 0.8266793863011545
+Cosine similarity between Parch and IntAgeGroup: 0.36885769049190303
+Cosine similarity between Parch and IntFareGroup: 0.5104249946021387
+Cosine similarity between Parch and IntTitle: 0.42457855120220783
+Cosine similarity between Parch and IntSex: 0.43266196119539235
+Cosine similarity between Parch and IntEmbarked: 0.14986463055641341
+Cosine similarity between Parch and IntTicket: 0.22676577373771606
+Cosine similarity between Parch and Clusters: 0.23082581002860264
+Cosine similarity between Fare and Survived: 0.5065358247422225
+Cosine similarity between Fare and Pclass: 0.35466331051864397
+Cosine similarity between Fare and Age: 0.5179288072790363
+Cosine similarity between Fare and SibSp: 0.354268765815849
+Cosine similarity between Fare and Parch: 0.39685877791046115
+Cosine similarity between Fare and Fare: 0.9999999999999999
+Cosine similarity between Fare and FamilySize: 0.425075598104314
+Cosine similarity between Fare and IntAgeGroup: 0.41502634081533313
+Cosine similarity between Fare and IntFareGroup: 0.6520812439075685
+Cosine similarity between Fare and IntTitle: 0.4285826566266879
+Cosine similarity between Fare and IntSex: 0.4460882512115187
+Cosine similarity between Fare and IntEmbarked: 0.31432403898038713
+Cosine similarity between Fare and IntTicket: 0.39304189541588247
+Cosine similarity between Fare and Clusters: 0.4667111466364836
+Cosine similarity between FamilySize and Survived: 0.3145046202631135
+Cosine similarity between FamilySize and Pclass: 0.4796331636668922
+Cosine similarity between FamilySize and Age: 0.35791841073360514
+Cosine similarity between FamilySize and SibSp: 0.9115673422818255
+Cosine similarity between FamilySize and Parch: 0.8266793863011545
+Cosine similarity between FamilySize and Fare: 0.425075598104314
+Cosine similarity between FamilySize and FamilySize: 1.0
+Cosine similarity between FamilySize and IntAgeGroup: 0.405838597865465
+Cosine similarity between FamilySize and IntFareGroup: 0.546611658277953
+Cosine similarity between FamilySize and IntTitle: 0.45198808863971396
+Cosine similarity between FamilySize and IntSex: 0.43150186529783513
+Cosine similarity between FamilySize and IntEmbarked: 0.18104563886876465
+Cosine similarity between FamilySize and IntTicket: 0.24959221614509375
+Cosine similarity between FamilySize and Clusters: 0.23712594777457494
+Cosine similarity between IntAgeGroup and Survived: 0.4650085591708926
+Cosine similarity between IntAgeGroup and Pclass: 0.6670529131516019
+Cosine similarity between IntAgeGroup and Age: 0.717313862955382
+Cosine similarity between IntAgeGroup and SibSp: 0.34557325743297573
+Cosine similarity between IntAgeGroup and Parch: 0.36885769049190303
+Cosine similarity between IntAgeGroup and Fare: 0.41502634081533313
+Cosine similarity between IntAgeGroup and FamilySize: 0.405838597865465
+Cosine similarity between IntAgeGroup and IntAgeGroup: 1.0000000000000002
+Cosine similarity between IntAgeGroup and IntFareGroup: 0.5085647179232073
+Cosine similarity between IntAgeGroup and IntTitle: 0.44559222983374647
+Cosine similarity between IntAgeGroup and IntSex: 0.43320826226116366
+Cosine similarity between IntAgeGroup and IntEmbarked: 0.37969855494738664
+Cosine similarity between IntAgeGroup and IntTicket: 0.6037031296770445
+Cosine similarity between IntAgeGroup and Clusters: 0.54836191817388
+Cosine similarity between IntFareGroup and Survived: 0.5347878213859037
+Cosine similarity between IntFareGroup and Pclass: 0.4083587719786803
+Cosine similarity between IntFareGroup and Age: 0.5697972755104096
+Cosine similarity between IntFareGroup and SibSp: 0.4554885273137745
+Cosine similarity between IntFareGroup and Parch: 0.5104249946021387
+Cosine similarity between IntFareGroup and Fare: 0.6520812439075685
+Cosine similarity between IntFareGroup and FamilySize: 0.546611658277953
+Cosine similarity between IntFareGroup and IntAgeGroup: 0.5085647179232073
+Cosine similarity between IntFareGroup and IntFareGroup: 1.0
+Cosine similarity between IntFareGroup and IntTitle: 0.47708989611870567
+Cosine similarity between IntFareGroup and IntSex: 0.48835741992417875
+Cosine similarity between IntFareGroup and IntEmbarked: 0.28252901178533224
+Cosine similarity between IntFareGroup and IntTicket: 0.43103911855300825
+Cosine similarity between IntFareGroup and Clusters: 0.47299657267061773
+Cosine similarity between IntTitle and Survived: 0.6673863619872193
+Cosine similarity between IntTitle and Pclass: 0.5306189624854541
+Cosine similarity between IntTitle and Age: 0.46193944402159387
+Cosine similarity between IntTitle and SibSp: 0.3748030363670246
+Cosine similarity between IntTitle and Parch: 0.42457855120220783
+Cosine similarity between IntTitle and Fare: 0.4285826566266879
+Cosine similarity between IntTitle and FamilySize: 0.45198808863971396
+Cosine similarity between IntTitle and IntAgeGroup: 0.44559222983374647
+Cosine similarity between IntTitle and IntFareGroup: 0.47708989611870567
+Cosine similarity between IntTitle and IntTitle: 0.9999999999999999
+Cosine similarity between IntTitle and IntSex: 0.9065648150929566
+Cosine similarity between IntTitle and IntEmbarked: 0.39209959685323115
+Cosine similarity between IntTitle and IntTicket: 0.4352323943544805
+Cosine similarity between IntTitle and Clusters: 0.4493096570447486
+Cosine similarity between IntSex and Survived: 0.7110138228696348
+Cosine similarity between IntSex and Pclass: 0.5220802851448592
+Cosine similarity between IntSex and Age: 0.5074427150652975
+Cosine similarity between IntSex and SibSp: 0.33784687606617797
+Cosine similarity between IntSex and Parch: 0.43266196119539235
+Cosine similarity between IntSex and Fare: 0.4460882512115187
+Cosine similarity between IntSex and FamilySize: 0.43150186529783513
+Cosine similarity between IntSex and IntAgeGroup: 0.43320826226116366
+Cosine similarity between IntSex and IntFareGroup: 0.48835741992417875
+Cosine similarity between IntSex and IntTitle: 0.9065648150929566
+Cosine similarity between IntSex and IntSex: 1.0000000000000002
+Cosine similarity between IntSex and IntEmbarked: 0.3750590954167926
+Cosine similarity between IntSex and IntTicket: 0.44169730511805555
+Cosine similarity between IntSex and Clusters: 0.47530369233285574
+Cosine similarity between IntEmbarked and Survived: 0.3792057389876939
+Cosine similarity between IntEmbarked and Pclass: 0.4784431957788665
+Cosine similarity between IntEmbarked and Age: 0.439987942249613
+Cosine similarity between IntEmbarked and SibSp: 0.1648906603497929
+Cosine similarity between IntEmbarked and Parch: 0.14986463055641341
+Cosine similarity between IntEmbarked and Fare: 0.31432403898038713
+Cosine similarity between IntEmbarked and FamilySize: 0.18104563886876465
+Cosine similarity between IntEmbarked and IntAgeGroup: 0.37969855494738664
+Cosine similarity between IntEmbarked and IntFareGroup: 0.28252901178533224
+Cosine similarity between IntEmbarked and IntTitle: 0.39209959685323115
+Cosine similarity between IntEmbarked and IntSex: 0.3750590954167926
+Cosine similarity between IntEmbarked and IntEmbarked: 1.0000000000000002
+Cosine similarity between IntEmbarked and IntTicket: 0.40438400700534977
+Cosine similarity between IntEmbarked and Clusters: 0.390791467413302
+Cosine similarity between IntTicket and Survived: 0.5011503783137387
+Cosine similarity between IntTicket and Pclass: 0.7878525348264346
+Cosine similarity between IntTicket and Age: 0.7830591166902183
+Cosine similarity between IntTicket and SibSp: 0.21258949742000371
+Cosine similarity between IntTicket and Parch: 0.22676577373771606
+Cosine similarity between IntTicket and Fare: 0.39304189541588247
+Cosine similarity between IntTicket and FamilySize: 0.24959221614509375
+Cosine similarity between IntTicket and IntAgeGroup: 0.6037031296770445
+Cosine similarity between IntTicket and IntFareGroup: 0.43103911855300825
+Cosine similarity between IntTicket and IntTitle: 0.4352323943544805
+Cosine similarity between IntTicket and IntSex: 0.44169730511805555
+Cosine similarity between IntTicket and IntEmbarked: 0.40438400700534977
+Cosine similarity between IntTicket and IntTicket: 1.0
+Cosine similarity between IntTicket and Clusters: 0.8054976317620192
+Cosine similarity between Clusters and Survived: 0.5283004106934849
+Cosine similarity between Clusters and Pclass: 0.6782248181245857
+Cosine similarity between Clusters and Age: 0.7240704487008743
+Cosine similarity between Clusters and SibSp: 0.1907285394695891
+Cosine similarity between Clusters and Parch: 0.23082581002860264
+Cosine similarity between Clusters and Fare: 0.4667111466364836
+Cosine similarity between Clusters and FamilySize: 0.23712594777457494
+Cosine similarity between Clusters and IntAgeGroup: 0.54836191817388
+Cosine similarity between Clusters and IntFareGroup: 0.47299657267061773
+Cosine similarity between Clusters and IntTitle: 0.4493096570447486
+Cosine similarity between Clusters and IntSex: 0.47530369233285574
+Cosine similarity between Clusters and IntEmbarked: 0.390791467413302
+Cosine similarity between Clusters and IntTicket: 0.8054976317620192
+Cosine similarity between Clusters and Clusters: 0.9999999999999999
+Survived has Mean of: 0.3838383838383838 and a Median of 0.0
+Pclass has Mean of: 2.308641975308642 and a Median of 3.0
+Age has Mean of: 29.98524253596857 and a Median of 29.0
+SibSp has Mean of: 0.5230078563411896 and a Median of 0.0
+Parch has Mean of: 0.38159371492704824 and a Median of 0.0
+Fare has Mean of: 32.204207968574636 and a Median of 14.4542
+FamilySize has Mean of: 0.9046015712682379 and a Median of 0.0
+IntAgeGroup has Mean of: 2.095398428731762 and a Median of 1.0
+IntFareGroup has Mean of: 1.1874298540965207 and a Median of 0.0
+IntTitle has Mean of: 0.6015712682379349 and a Median of 0.0
+IntSex has Mean of: 0.35241301907968575 and a Median of 0.0
+IntEmbarked has Mean of: 0.3613916947250281 and a Median of 0.0
+IntTicket has Mean of: 306.8597081930415 and a Median of 285.0
+Clusters has Mean of: 0.9865319865319865 and a Median of 1.0
+
+Correlation between different features:
+              Survived    Pclass       Age     SibSp     Parch      Fare  FamilySize  IntAgeGroup  IntFareGroup  IntTitle    IntSex  IntEmbarked  IntTicket  Clusters
+Survived      1.000000 -0.338481 -0.070264 -0.035322  0.081629  0.257307    0.016639     0.022845      0.253256  0.478295  0.543351     0.106811  -0.047298  0.109411
+Pclass       -0.338481  1.000000 -0.287757  0.083081  0.018443 -0.549500    0.065997    -0.086632     -0.606885 -0.075032 -0.131900     0.045702  -0.017489 -0.178938
+Age          -0.070264 -0.287757  1.000000 -0.196575 -0.172131  0.075590   -0.220346     0.197959      0.061575 -0.190090 -0.079679    -0.015328   0.105198  0.129020
+SibSp        -0.035322  0.083081 -0.196575  1.000000  0.414838  0.159651    0.890712     0.052315      0.271425  0.168666  0.114631    -0.059961  -0.303229 -0.233705
+Parch         0.081629  0.018443 -0.172131  0.414838  1.000000  0.216225    0.783111     0.090805      0.348488  0.237113  0.245489    -0.078665  -0.273002 -0.164130
+Fare          0.257307 -0.549500  0.075590  0.159651  0.216225  1.000000    0.217138     0.030428      0.482110  0.161245  0.182333     0.062142  -0.142578  0.095018
+FamilySize    0.016639  0.065997 -0.220346  0.890712  0.783111  0.217138    1.000000     0.081120      0.359609  0.233736  0.200988    -0.080281  -0.343634 -0.241726
+IntAgeGroup   0.022845 -0.086632  0.197959  0.052315  0.090805  0.030428    0.081120     1.000000      0.117812  0.030955 -0.001147     0.030944  -0.030131 -0.021180
+IntFareGroup  0.253256 -0.606885  0.061575  0.271425  0.348488  0.482110    0.359609     0.117812      1.000000  0.187111  0.199010    -0.026646  -0.188733  0.016703
+IntTitle      0.478295 -0.075032 -0.190090  0.168666  0.237113  0.161245    0.233736     0.030955      0.187111  1.000000  0.856736     0.145151  -0.132497  0.003586
+IntSex        0.543351 -0.131900 -0.079679  0.114631  0.245489  0.182333    0.200988    -0.001147      0.199010  0.856736  1.000000     0.116569  -0.132709  0.042827
+IntEmbarked   0.106811  0.045702 -0.015328 -0.059961 -0.078665  0.062142   -0.080281     0.030944     -0.026646  0.145151  0.116569     1.000000  -0.024655  0.023973
+IntTicket    -0.047298 -0.017489  0.105198 -0.303229 -0.273002 -0.142578   -0.343634    -0.030131     -0.188733 -0.132497 -0.132709    -0.024655   1.000000  0.467953
+Clusters      0.109411 -0.178938  0.129020 -0.233705 -0.164130  0.095018   -0.241726    -0.021180      0.016703  0.003586  0.042827     0.023973   0.467953  1.000000
+
+Highest Fare: 512.3292
+Biggest Family Size: 10

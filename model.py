@@ -1,26 +1,18 @@
+import pandas as pd
+from sklearn.decomposition import PCA
+from sklearn.cluster import KMeans
+
 def model(df):
-    from sklearn.decomposition import PCA
-    import pandas as pd
-    from sklearn.cluster import KMeans
+    # Apply PCA
     pca = PCA(n_components=3)
+    x_pca = pd.DataFrame(pca.fit_transform(df), columns=["col1", "col2", "col3"])
 
-    pca.fit(df.values)
-    x_pca = pd.DataFrame(pca.transform(df.values), columns=(["col1","col2", "col3"]))
-
+    # K-means clustering
     kmeans = KMeans(n_clusters=3)
+    clusters = kmeans.fit_predict(x_pca)
+    x_pca["Clusters"], df["Clusters"] = clusters, clusters
 
-    pre_kmeans=kmeans.fit_predict(x_pca)
-
-    x_pca["Clusters"]=pre_kmeans
-    df["Clusters"]=pre_kmeans
-
-    # Count the number of records in each cluster
-    cluster_counts = df['Clusters'].value_counts()
-
-    # Define the file name
-    file_name = "k.txt"
-
-    # Save the counts to the text file
-    with open(file_name, "w") as file:
-        for cluster, count in cluster_counts.items():
+    # Write cluster counts to file
+    with open("k.txt", "w") as file:
+        for cluster, count in df['Clusters'].value_counts().items():
             file.write(f"Cluster {cluster}: {count} records\n")

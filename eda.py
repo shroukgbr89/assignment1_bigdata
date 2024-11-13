@@ -1,38 +1,24 @@
+import numpy as np
+import pandas as pd
+
+def cosine_similarity(a, b):
+    return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
+
 def eda(df):
-    import numpy as np
-
-    def cosine_similarity(a, b):
-        return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
-
     numeric_df = df.select_dtypes(include=[np.number])
     columns = numeric_df.columns
     results = np.zeros((len(columns), len(columns)))
 
-    for i in range(len(columns)):
-        for j in range(len(columns)):
-            col1 = numeric_df[columns[i]]
-            col2 = numeric_df[columns[j]]
-            similarity = cosine_similarity(col1, col2)
-            results[i, j] = similarity
-
+    # Calculate cosine similarity between numeric features
     with open('eda-in-1.txt', 'w') as f:
-        for i in range(len(columns)):
-            for j in range(len(columns)):
-                f.write(f'Cosine similarity between {columns[i]} and {columns[j]}: {results[i, j]}\n')
+        for i, col1 in enumerate(columns):
+            for j, col2 in enumerate(columns):
+                results[i, j] = cosine_similarity(numeric_df[col1], numeric_df[col2])
+                f.write(f'Cosine similarity between {col1} and {col2}: {results[i, j]:.4f}\n')
 
-        # Calculate and write mean and median
-        for col in columns:
-            mean_val = numeric_df[col].mean()
-            median_val = numeric_df[col].median()
-            f.write(f'{col} has Mean of: {mean_val} and a Median of {median_val}\n')
+            # Mean, median, and correlation analysis
+            mean_val, median_val = numeric_df[col1].mean(), numeric_df[col1].median()
+            f.write(f'{col1} Mean: {mean_val:.2f}, Median: {median_val:.2f}\n')
 
-        # Analyze and write correlation between columns
-        correlation_matrix = numeric_df.corr()
-        f.write('\nCorrelation between different features:\n')
-        f.write(correlation_matrix.to_string())
-
-        Highest_fare = df['Fare'].max()
-        Biggest_family_size = df['FamilySize'].max()
-
-        f.write(f'\n\nHighest Fare: {Highest_fare}\n')
-        f.write(f'Biggest Family Size: {Biggest_family_size}\n')
+        f.write('\nCorrelation Matrix:\n' + numeric_df.corr().to_string())
+        f.write(f'\nHighest Fare: {df["Fare"].max()}\nBiggest Family Size: {df["FamilySize"].max()}\n')

@@ -8,7 +8,7 @@ The goal is to establish a local dockerized environment for data analysis on a d
 |-------------------------|------------|----------------------------|
 | Shrouk Anwar Gbr        | 211001720  | S.Anwar2120@nu.edu.eg      |
 | Zeinab Mostafa Omran    | 211001793  | z.mostafasayed2193@nu.edu.eg|
-| Mariam Mohamed Farthat  | 211001971  | m.mohamed2171@nu.edu.eg    |
+| Mariam Mohamed farhat  | 211001971  | m.mohamed2171@nu.edu.eg    |
 | Zahraa Mohamed Mosa     | 211001602  | z.mohamed2102@nu.edu.eg    |
 
 ## To start up the Docker Image
@@ -42,7 +42,7 @@ use the following command
 ```
 
 ## Docker Hub
-You can pull the image from Docker Hub from [here](https://hub.docker.com/repository/docker/shroukgbr89/bd-a1-image/general)
+You can pull the image from Docker Hub from [here](https://hub.docker.com/r/shroukgbr89/bd-a1-image)
 
 ## Github
 You can access the repo from Github from [here](https://github.com/shroukgbr89/assignment1_bigdata) or use the following command

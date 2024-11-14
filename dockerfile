@@ -18,5 +18,8 @@ WORKDIR /home/doc-bd-a1/
 # Copy all .py files
 COPY load.py dpre.py eda.py vis.py model.py /home/doc-bd-a1/
 
-# Run the primary script
-CMD ["python3", "load.py", "titanic.csv"]
+# Set the python files
+RUN python3 load.py titanic.csv
+
+# Default command to open bash after running the script
+CMD ["/bin/bash"]

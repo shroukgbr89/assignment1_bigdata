@@ -27,6 +27,7 @@ use the following command
 docker run -it bd-a1-image
 ```
 # Execute the pipeline
+use the following command
 ```bash
 python3 load.py titanic.csv
 ```

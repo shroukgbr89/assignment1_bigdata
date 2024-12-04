@@ -19,6 +19,7 @@ use the following command
 ## Building the Docker Image
 use the following command
 ```bash
+docker start bd-a1-container
 docker build -t bd-a1-image .
 ```
 ## Running the Docker Container
@@ -36,7 +37,7 @@ use the following command
 ```bash
 docker ps -a
 ```
-## Retrieve Output Files
+## Retrieve Output Files , Copy the output files from the container to the local machine
 use the following command
 ```bash
 ./final.sh
